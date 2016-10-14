@@ -93,7 +93,7 @@ const aaa = new Symbol('aaaa'); //type error
   
 ## 그럼 왜?
 
-1. 로운 기능과 예전 코드의 충돌을 제거
+1. 새로운 기능에 대한 호환
 
 
 
