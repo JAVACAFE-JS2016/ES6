@@ -50,9 +50,11 @@ const strings = new Set('aabbbcccc');
 
 ## Map
 
-1. key-value 페어로 이루어진 컬렉션 ```javascript const map = new Map();
-
-map.set('aaa', 100); map.set('bbb', 200); map.has('aaa'); map.size(); map.delete('aaa'); map.clear(); ```
+1. key-value 페어로 이루어진 컬렉션 
+  ```javascript 
+  const map = new Map();
+  map.set('aaa', 100); map.set('bbb', 200); map.has('aaa'); map.size(); map.delete('aaa'); map.clear(); 
+  ```
 
 ## Weak?
 
