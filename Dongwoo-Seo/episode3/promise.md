@@ -50,7 +50,7 @@ promise(100)
 
 ## 실행 설명
 
-![실행 설명이미지](https://mdn.mozillademos.org/files/8633/promises.png) 비동기 함수 호출 후 결과값 또는 실패 이류를 처리하기 위한 처리기를 연결할 수 있도록 구성. ![실행 설명이미지2](http://cfile23.uf.tistory.com/image/257CF64C5444D93006ED4D)
+![실행 설명이미지](https://mdn.mozillademos.org/files/8633/promises.png) 비동기 함수 호출 후 결과값 또는 실패 이유를 처리하기 위한 처리기를 연결할 수 있도록 구성. ![실행 설명이미지2](http://cfile23.uf.tistory.com/image/257CF64C5444D93006ED4D)
 
 ```javascript
   asyncThing1()
