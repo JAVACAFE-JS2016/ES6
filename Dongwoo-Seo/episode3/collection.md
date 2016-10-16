@@ -50,7 +50,8 @@ const strings = new Set('aabbbcccc');
 
 ## Map
 
-1. key-value 페어로 이루어진 컬렉션 
+1. key-value 페어로 이루어진 컬렉션
+
   ```javascript 
   const map = new Map();
   map.set('aaa', 100); map.set('bbb', 200); map.has('aaa'); map.size(); map.delete('aaa'); map.clear(); 
@@ -59,11 +60,9 @@ const strings = new Set('aabbbcccc');
 ## Weak?
 
 1. 이건 Map, Set의 경우는 강한 참조이기 때문에 아래와 같은 경우에도 GC에서 제거되지 않는다.
-
   1. DOM의 객체를 Map이나 Set에 등록
   2. DOM 객체를 삭제
   3. Map, Set에서 해당 DOM 객체를 찾아서 같이 삭제해주지 않는 경우 해당 DOM은 Map이나 Set에서 사용 중이기 때문에 GC에서 수거 대상에서 제외
-
 2. 해당 문제를 해결하기 위해서 WeakSet, WeakMap이 나왔으며 이들은 객체만 등록이 가능
 3. 기능은 거의 Map이나 Set과 비슷하지만 열거형이 아니라는 점이 차이
 4. 그럼 언제 weak 를 사용하나? 아래 간단한 예제가 있다.
