@@ -50,8 +50,9 @@ var  p = new Proxy(target, handler);
   A trap for the new operator.
   
 자세한 건 아래 링크들 참고
-https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Proxy  
-http://hacks.mozilla.or.kr/2016/03/es6-in-depth-proxies-and-reflect/
+
+* https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Proxy  
+* http://hacks.mozilla.or.kr/2016/03/es6-in-depth-proxies-and-reflect/
 
 
 ## 예
